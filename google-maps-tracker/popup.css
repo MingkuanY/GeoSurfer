@@ -1,0 +1,108 @@
+/* popup page */
+
+body {
+  height: 100px;
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  background-color: #33a853;
+  color: white;
+  padding: 0 20px;
+}
+
+.youHaveSurfed {
+  font-size: 16px;
+  font-family: 'Figtree', sans-serif;
+  font-weight: 300;
+}
+.stronger {
+  font-family: 'Figtree', sans-serif;
+  font-weight: 400;
+}
+
+.timeContainer {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#hours, #minutes, #seconds {
+  font-size: 44px;
+}
+
+.unit {
+  font-size: 16px;
+  margin-right: 4px;
+}
+
+.earth {
+  position: absolute;
+  top: 0;
+  right: -60px;
+  height: 120px;
+  width: 120px;
+}
+
+
+/* setup page */
+
+.welcomeContainer {
+  display: flex;
+  align-items: center;
+}
+
+.welcome {
+  font-size: 18px;
+}
+
+.logo {
+  height: 28px;
+  width: 28px;
+  margin-left: 8px;
+}
+
+.logAnyHours {
+  margin-top: 4px;
+}
+
+.log {
+  font-size: 15px;
+}
+
+.inputContainer {
+  display: flex;
+  margin-top: 8px;
+  align-items: center;
+}
+
+#previousHours {
+  border: none;
+  background-color: white;
+  width: 154px;
+  border-radius: 6px;
+  font-family: 'Montserrat', sans-serif;
+  color: #33a853;
+  padding: 4px;
+}
+#previousHours::-webkit-inner-spin-button,
+#previousHours::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+#previousHours:focus {
+  outline: none;
+}
+
+#logButton {
+  background-color: #f54331;
+  color: white;
+  border: 1px solid #f03c39;
+  border-radius: 6px;
+  font-family: 'Figtree', sans-serif;
+  font-weight: 400;
+  margin-left: 10px;
+  padding: 4px;
+}
